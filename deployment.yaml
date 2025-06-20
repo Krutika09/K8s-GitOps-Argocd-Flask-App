@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask
-        image: krutika09/argocd-flask-k8s   # Use your DockerHub image
+        image: krutika09/argocd-flask-k8s:v1   # Use your DockerHub image
         ports:
         - containerPort: 5000
 
