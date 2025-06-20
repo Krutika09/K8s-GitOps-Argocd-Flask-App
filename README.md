@@ -113,13 +113,7 @@ spec:
 
 1. Push all files to your GitHub repo.
 
-2. Create the Docker image and push to DockerHub:
-
-```bash
-docker build -t krutika09/flask-k8s:latest .
-docker push krutika09/flask-k8s:latest
-```
-
+2. Create the Docker image and push to DockerHub
 
 ## Port Forward ArgoCD Server
 ```sh
